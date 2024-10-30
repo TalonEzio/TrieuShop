@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{56B4A5DF-3A44-4ADB-A308-94F1C812B8BB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{BB9B1044-FFC6-4184-83F3-A710CC200560}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TrieuShop.Domain", "src\TrieuShop.Domain\TrieuShop.Domain.csproj", "{BF8BA685-A69A-4BC7-B639-47D75508F3A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrieuShop.Core", "src\TrieuShop.Core\TrieuShop.Core.csproj", "{533E52F3-317A-4A04-85C4-0DF1587EFCC0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrieuShop.Infrastrucrture", "src\TrieuShop.Infrastrucrture\TrieuShop.Infrastrucrture.csproj", "{6F3BD14C-ECA2-4E8D-A119-7319647A27AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrieuShop.Infrastructure.SqlServer", "src\TrieuShop.Infrastructure.SqlServer\TrieuShop.Infrastructure.SqlServer.csproj", "{1268A7C4-FB2E-4807-AB7F-22BF4B4DD0FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrieuShop.Infrastructure.InMemory", "src\TrieuShop.Infrastructure.InMemory\TrieuShop.Infrastructure.InMemory.csproj", "{4D0577EB-8D80-4F72-A14C-887FCB0D3FBC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BF8BA685-A69A-4BC7-B639-47D75508F3A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF8BA685-A69A-4BC7-B639-47D75508F3A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF8BA685-A69A-4BC7-B639-47D75508F3A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF8BA685-A69A-4BC7-B639-47D75508F3A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{533E52F3-317A-4A04-85C4-0DF1587EFCC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{533E52F3-317A-4A04-85C4-0DF1587EFCC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{533E52F3-317A-4A04-85C4-0DF1587EFCC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{533E52F3-317A-4A04-85C4-0DF1587EFCC0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F3BD14C-ECA2-4E8D-A119-7319647A27AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F3BD14C-ECA2-4E8D-A119-7319647A27AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F3BD14C-ECA2-4E8D-A119-7319647A27AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F3BD14C-ECA2-4E8D-A119-7319647A27AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1268A7C4-FB2E-4807-AB7F-22BF4B4DD0FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1268A7C4-FB2E-4807-AB7F-22BF4B4DD0FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1268A7C4-FB2E-4807-AB7F-22BF4B4DD0FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1268A7C4-FB2E-4807-AB7F-22BF4B4DD0FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D0577EB-8D80-4F72-A14C-887FCB0D3FBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D0577EB-8D80-4F72-A14C-887FCB0D3FBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D0577EB-8D80-4F72-A14C-887FCB0D3FBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D0577EB-8D80-4F72-A14C-887FCB0D3FBC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BF8BA685-A69A-4BC7-B639-47D75508F3A3} = {56B4A5DF-3A44-4ADB-A308-94F1C812B8BB}
+		{533E52F3-317A-4A04-85C4-0DF1587EFCC0} = {56B4A5DF-3A44-4ADB-A308-94F1C812B8BB}
+		{6F3BD14C-ECA2-4E8D-A119-7319647A27AD} = {56B4A5DF-3A44-4ADB-A308-94F1C812B8BB}
+		{1268A7C4-FB2E-4807-AB7F-22BF4B4DD0FB} = {56B4A5DF-3A44-4ADB-A308-94F1C812B8BB}
+		{4D0577EB-8D80-4F72-A14C-887FCB0D3FBC} = {56B4A5DF-3A44-4ADB-A308-94F1C812B8BB}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D07B4F6B-18CA-48A5-A964-DA7E6FA301BA}
+	EndGlobalSection
+EndGlobal
